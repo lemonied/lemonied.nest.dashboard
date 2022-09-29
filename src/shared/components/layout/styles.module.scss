@@ -1,0 +1,8 @@
+@import "src/styles/variables";
+
+.layout{
+  .main{
+    padding: 20px;
+    min-height: calc(100vh - $HEADER_HEIGHT);
+  }
+}

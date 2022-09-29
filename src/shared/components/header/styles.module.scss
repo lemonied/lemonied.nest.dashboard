@@ -1,0 +1,21 @@
+@import "src/styles/variables";
+
+.header{
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 2px 8px #555555;
+  nav{
+    background: #24292f;
+    color: #fff;
+    padding: 0 20px;
+    display: grid;
+    height: $HEADER_HEIGHT;
+  }
+  .nav-list{
+    & > * {
+      display: inline-block;
+      font-size: 1em;
+      line-height: $HEADER_HEIGHT;
+    }
+  }
+}
